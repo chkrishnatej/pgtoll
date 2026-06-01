@@ -1,0 +1,4 @@
+github.com/chkrishnatej/pgtoll v0.0.0-20260530152947-7c07131c3fc3 h1:EQ+NXjFAn/h1A5YrkiKJQJg5XeYxgKoN7oINh+mUvZI=
+github.com/chkrishnatej/pgtoll v0.0.0-20260530152947-7c07131c3fc3/go.mod h1:XDiJF+6q6ZJOCfbBcaJ78j9mvmAY6a9WoatUzK+E/pc=
+golang.org/x/crypto v0.52.0 h1:RMs7fP2rXdep0CftQlK8Uf+kibLm7qkCcradZWYz988=
+golang.org/x/crypto v0.52.0/go.mod h1:1QgfPxDqh0T2M/elOJtp9RvuR95kVjir0e6/BvEmGbc=
