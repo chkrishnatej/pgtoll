@@ -50,7 +50,10 @@ func UpgradeToTLS(conn net.Conn, caCertPath string) (*tls.Conn, error) {
 		RootCAs:    certPool,
 	})
 	if err := tlsConn.Handshake(); err != nil {
-		tlsConn.Close()
+		err := tlsConn.Close()
+		if err != nil {
+			return nil, err
+		}
 		return nil, fmt.Errorf("TLS handshake: %w", err)
 	}
 	return tlsConn, nil
